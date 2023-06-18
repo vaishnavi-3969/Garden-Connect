@@ -22,10 +22,10 @@ function App() {
         <Route path='/challenges' element={<Challenges/>} exact/>
         <Route path='/garden-list' element={<GardenList/>} exact/>
         <Route path='/garden-details' element={<GardenDetails/>} exact/>
-        <Route path='/leaderboard' element={<Leaderboard/>} exact/>
-        <Route path='/progressTracker' element={<ProgressTracker/>} exact/>
-        <Route path='/socialFeed' element={<SocialFeed/>} exact/>
-        <Route path='/marketplace' element={<Marketplace/>} exact/>
+        <Route path='/leader-board' element={<Leaderboard/>} exact/>
+        <Route path='/progress-tracker' element={<ProgressTracker/>} exact/>
+        <Route path='/social-feed' element={<SocialFeed/>} exact/>
+        <Route path='/market-place' element={<Marketplace/>} exact/>
       </Routes>
     </BrowserRouter>
     <div>

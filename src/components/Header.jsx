@@ -38,7 +38,16 @@ const Header = () => {
           Home
         </motion.a>
         <motion.a
-          href="/"
+          href="/challenges"
+          className="text-gray-300 hover:text-white hover:underline transition duration-300"
+          initial={{ opacity: 0 }} 
+          animate={{ opacity: 1 }} 
+          transition={{ duration: 0.5, delay: 0.4 }} and delay
+        >
+          Challenges
+        </motion.a>
+        <motion.a
+          href="/garden-details"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
@@ -47,7 +56,43 @@ const Header = () => {
           Gardens
         </motion.a>
         <motion.a
-          href="/"
+          href="/garden-list"
+          className="text-gray-300 hover:text-white hover:underline transition duration-300"
+          initial={{ opacity: 0 }} 
+          animate={{ opacity: 1 }} 
+          transition={{ duration: 0.5, delay: 0.5 }} and delay
+        >
+          List Your Garden
+        </motion.a>
+        <motion.a
+          href="/leader-board"
+          className="text-gray-300 hover:text-white hover:underline transition duration-300"
+          initial={{ opacity: 0 }} 
+          animate={{ opacity: 1 }} 
+          transition={{ duration: 0.5, delay: 0.5 }} and delay
+        >
+          Leaderboard
+        </motion.a>
+        <motion.a
+          href="/social-feed"
+          className="text-gray-300 hover:text-white hover:underline transition duration-300"
+          initial={{ opacity: 0 }} 
+          animate={{ opacity: 1 }} 
+          transition={{ duration: 0.5, delay: 0.5 }} and delay
+        >
+          Feed
+        </motion.a>
+        <motion.a
+          href="/market-place"
+          className="text-gray-300 hover:text-white hover:underline transition duration-300"
+          initial={{ opacity: 0 }} 
+          animate={{ opacity: 1 }} 
+          transition={{ duration: 0.5, delay: 0.5 }} and delay
+        >
+          Marketplace
+        </motion.a>
+        <motion.a
+          href="/progress-tracker"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 

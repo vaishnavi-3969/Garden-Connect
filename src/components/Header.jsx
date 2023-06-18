@@ -29,7 +29,7 @@ const Header = () => {
       </div>
       <nav className="space-x-4">
         <motion.a
-          href="/"
+          href="https://skynet-hacks-v2-garden-connect.vercel.app"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
@@ -38,7 +38,7 @@ const Header = () => {
           Home
         </motion.a>
         <motion.a
-          href="/challenges"
+          href="https://skynet-hacks-v2-garden-connect.vercel.app/challenges"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 

@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import logo from '../assets/logo.png';
-import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -38,21 +37,23 @@ const Header = () => {
         >
           Home
         </motion.a>
-        <motion.div
+        <motion.a
+          href="/challenges"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
           transition={{ duration: 0.5, delay: 0.4 }} and delay
         >
-          <Link to='/challenges'>Challenges</Link>
-        </motion.div>
+          Challenges
+        </motion.a>
         <motion.a
+          href="/garden-details"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
           transition={{ duration: 0.5, delay: 0.5 }} and delay
         >
-          <Link to="/garden-details">Gardens</Link>
+          Gardens
         </motion.a>
         <motion.a
           href="/garden-list"

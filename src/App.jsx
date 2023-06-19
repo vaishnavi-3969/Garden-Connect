@@ -13,19 +13,18 @@ import Marketplace from './components/VirtualMarketplace'
 function App() {
   return (
     <div>
-    <div>
-      <Header/>
-    </div>
+      
     <BrowserRouter>
+    <Header/>
       <Routes>
-        <Route path='/' element={<Homepage/>} exact/>
-        <Route path='/challenges' element={<Challenges/>} exact/>
-        <Route path='/garden-list' element={<GardenList/>} exact/>
-        <Route path='/garden-details' element={<GardenDetails/>} exact/>
-        <Route path='/leader-board' element={<Leaderboard/>} exact/>
-        <Route path='/progress-tracker' element={<ProgressTracker/>} exact/>
-        <Route path='/social-feed' element={<SocialFeed/>} exact/>
-        <Route path='/market-place' element={<Marketplace/>} exact/>
+        <Route path='/' element={<Homepage/>}/>
+        <Route path='/challenges' element={<Challenges/>}/>
+        <Route path='/garden-list' element={<GardenList/>}/>
+        <Route path='/garden-details' element={<GardenDetails/>}/>
+        <Route path='/leader-board' element={<Leaderboard/>}/>
+        <Route path='/progress-tracker' element={<ProgressTracker/>}/>
+        <Route path='/social-feed' element={<SocialFeed/>}/>
+        <Route path='/market-place' element={<Marketplace/>}/>
       </Routes>
     </BrowserRouter>
     <div>

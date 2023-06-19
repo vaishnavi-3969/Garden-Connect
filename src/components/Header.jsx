@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import logo from '../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -28,78 +29,78 @@ const Header = () => {
         </motion.h1>
       </div>
       <nav className="space-x-4">
-        <motion.a
-          href="/"
+        <Link
+          to="/"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
           transition={{ duration: 0.5, delay: 0.4 }} and delay
         >
           Home
-        </motion.a>
-        <motion.a
-          href="/challenges"
+        </Link>
+        <Link
+          to="/challenges"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
           transition={{ duration: 0.5, delay: 0.4 }} and delay
         >
           Challenges
-        </motion.a>
-        <motion.a
-          href="/garden-details"
+        </Link>
+        <Link
+          to="/garden-details"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
           transition={{ duration: 0.5, delay: 0.5 }} and delay
         >
           Gardens
-        </motion.a>
-        <motion.a
-          href="/garden-list"
+        </Link>
+        <Link
+          to="/garden-list"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
           transition={{ duration: 0.5, delay: 0.5 }} and delay
         >
           List Your Garden
-        </motion.a>
-        <motion.a
-          href="/leader-board"
+        </Link>
+        <Link
+          to="/leader-board"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
           transition={{ duration: 0.5, delay: 0.5 }} and delay
         >
           Leaderboard
-        </motion.a>
-        <motion.a
-          href="/social-feed"
+        </Link>
+        <Link
+          to="/social-feed"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
           transition={{ duration: 0.5, delay: 0.5 }} and delay
         >
           Feed
-        </motion.a>
-        <motion.a
-          href="/market-place"
+        </Link>
+        <Link
+          to="/market-place"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
           transition={{ duration: 0.5, delay: 0.5 }} and delay
         >
           Marketplace
-        </motion.a>
-        <motion.a
-          href="/progress-tracker"
+        </Link>
+        <Link
+          to="/progress-tracker"
           className="text-gray-300 hover:text-white hover:underline transition duration-300"
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
           transition={{ duration: 0.5, delay: 0.6 }} and delay
         >
           Profile
-        </motion.a>
+        </Link>
       </nav>
     </motion.header>
   );
